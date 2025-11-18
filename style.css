@@ -5,6 +5,7 @@ body{
     font-family: 'italiana', serif;
     font-weight: 400;
     flex-direction: column;
+    max-width: 100%;
     
 }
 .Wording{
@@ -27,6 +28,7 @@ body{
 .labimg{
     justify-content: right;
     size: 50%;
+    overflow: hidden;
 }
 #labimg{
     justify-content: right;
