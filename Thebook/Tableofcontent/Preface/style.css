@@ -1,0 +1,32 @@
+@font-face{
+    font-family: 'CHfont';
+    src: url(../../../fonts/匯文明朝體.otf) format('opentype');
+    font-weight: normal;
+    font-size: normal;
+}
+@font-face{
+    font-family: 'ENfont';
+    src: url(../../../fonts/IMFellEnglish-Italic.ttf) format('opentype');
+    font-weight: normal;
+    font-size: normal;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: 'CHfont', sans-serif;
+    color:rgb(33, 33, 33);
+    position: relative;
+    
+}
+.preface{
+    background-color: bisque;
+    padding: 5%;
+    font-size: 110%;
+    align-items: center;
+    margin: 10%;
+}
+#tittle{
+    font-size: 150%;
+    padding: 3%;
+    align-items: center;
+    justify-content: center;
+}

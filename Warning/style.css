@@ -1,0 +1,60 @@
+@font-face{
+    font-family: 'Myfont';
+    src: url(../fonts/匯文明朝體.otf) format('opentype');
+    font-weight: normal;
+    font-size: normal;
+}
+body{
+    background-image: url(../Lab-1/Higgs.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 70%;
+    min-height: 90vh;
+    background-color: #F3F3F3;
+    font-family: 'Myfont', sans-serif;
+    position: relative;
+    
+}
+.Wording{
+    position: relative;
+    text-align: center;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+#Title{
+    font-size: 180%;
+    color: #C9C9C9;
+    letter-spacing: 5px;
+    text-align: center;
+}
+#secondline{
+    font-size: 140%;
+    color: #B8B8B8;
+    letter-spacing: 5px;
+    text-align: left;
+}
+.warningcontent{
+    font-size: 125%;
+    color:#B8B8B8;
+    text-align: left;
+    line-height: 80%;
+    margin: 0%;
+}
+#warningtittle{
+    text-decoration: dotted;
+}
+.statement{
+    font-size: 130%;
+    color: #B8B8B8;
+    text-align: left;
+    margin: 0%;
+}
+.buttons{
+    right: 2%;
+}
+
+#readbutton{
+    background: none;
+    border: none;
+    size: 60%;
+}
